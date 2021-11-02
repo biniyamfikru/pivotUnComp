@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".create_account">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/back_design"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/etfullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter YourFull Name"
+            android:layout_margin="15dp"
+            android:background="@drawable/edittextback"
+            android:inputType="textPersonName"
+            />
+
+        <EditText
+            android:id="@+id/etemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Your Email"
+            android:layout_margin="15dp"
+            android:background="@drawable/edittextback"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/etpass1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Create Password"
+            android:layout_margin="15dp"
+            android:background="@drawable/edittextback"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/etpass2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:layout_margin="15dp"
+            android:background="@drawable/edittextback"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/etelpaid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Your ELPA ID Number"
+            android:layout_margin="15dp"
+            android:background="@drawable/edittextback"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etwatid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Your Water ID Number"
+            android:layout_margin="15dp"
+            android:background="@drawable/edittextback"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etcbeno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Your CBE Account Number"
+            android:layout_margin="15dp"
+            android:background="@drawable/edittextback"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etcbepass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Your CBE Account Password"
+            android:layout_margin="15dp"
+            android:background="@drawable/edittextback"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btsignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:background="@drawable/design"
+            android:text="Sign Up" />
+    </LinearLayout>
+
+
+</LinearLayout>
